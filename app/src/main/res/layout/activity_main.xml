@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/simular"
+        android:textColorLink="@color/red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.962" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="316dp"
+        android:layout_height="56dp"
+        android:hint="100.000.000"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="151dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="316dp"
+        android:layout_height="56dp"
+        android:hint="70.000.000"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="316dp"
+        android:layout_height="56dp"
+        android:hint="5"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="508dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="316dp"
+        android:layout_height="56dp"
+        android:hint="14.03"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="659dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="316dp"
+        android:layout_height="20dp"
+        android:text="*valor de la propiedad"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="316dp"
+        android:layout_height="20dp"
+        android:text="*¿Cuanto necesitas?"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="316dp"
+        android:layout_height="20dp"
+        android:text="*¿A qué plazo necesitas el credito (años)?"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="476dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="316dp"
+        android:layout_height="20dp"
+        android:text="*¿A qué tasa de interés efectiva anual (TAE)?"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="621dp" />
+
+    <TextView
+        android:layout_width="313dp"
+        android:layout_height="67dp"
+        android:text="Crédito Hipotecario en Colombia"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+    <TextView
+        android:layout_width="310dp"
+        android:layout_height="37dp"
+        android:text="Simuladores"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="317dp"
+        android:layout_height="33dp"
+        android:text="El valor de la propiedad no puede ser inferior a $70.000.000"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="317dp"
+        android:layout_height="33dp"
+        android:text="Van desde los 5 años hasta los 20 años. El plazo más común es de 20 años."
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="574dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="317dp"
+        android:layout_height="33dp"
+        android:text="Esta tasa depende de tu historial crediticio y del banco en el que pidas el crédito."
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="726dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="312dp"
+        android:layout_height="87dp"
+        android:text="El prestamo minimo es de $50.000.000 y no puede exceder el 70% del valor de la propiedad para créditos hipotecarios, mientras que para leasing habitacional no puede exceder el 80% del valor de la propiedad."
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
